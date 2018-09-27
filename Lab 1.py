@@ -30,3 +30,33 @@
 # elif a % 2 == 1:
 #     print("Odd")
 
+# #Task 3 **************
+# a = int(input())
+# if a % 4 == 0:
+#     if a % 100 == 0:
+#         if a % 400 == 0:
+#             print("The year is a leap year (it has 366 days).")
+#         else:
+#             print("The year is not a leap year (it has 365 days).")
+#     else:
+#         print("The year is a leap year (it has 366 days).")
+# else:
+#     print ("The year is not a leap year (it has 365 days).")
+
+
+# #Task 4 **************
+# print ("Enter a Word")
+# a = input()
+# print ("It has" , len(a), "alphabets")
+#
+# print ("\nEnter a Sentence")
+# s = input()
+# print ("It has" , len(s.split()), "Words")
+
+
+# Reversing a String **************
+a = input()
+print (a[::-1])
+
+
+# #Task 5 **************
